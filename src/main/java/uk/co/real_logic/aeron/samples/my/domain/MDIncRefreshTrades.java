@@ -13,10 +13,10 @@ public class MDIncRefreshTrades implements Item {
     public MDIncRefreshTrades() {
     }
 
-    public MDIncRefreshTrades(long securityId, float lastDealPrice, float lastDealVolume) {
+    public MDIncRefreshTrades(long securityId, double lastDealPrice, double lastDealVolume) {
         this.securityId = securityId;
-        this.lastDealPrice = lastDealPrice;
-        this.lastDealVolume = lastDealVolume;
+        this.lastDealPrice = (float) lastDealPrice;
+        this.lastDealVolume =(float) lastDealVolume;
     }
 
     public void serialize(MarketDataIncrementalRefreshTradesEncoder marketData) {
@@ -58,7 +58,7 @@ public class MDIncRefreshTrades implements Item {
 
     @Override
     public String toString() {
-        return "TradeInfo{" +
+        return "MDIncRefreshTrades{" +
                 "securityId=" + securityId +
                 ", sessionId=" + sessionId +
                 ", lastDealPrice=" + lastDealPrice +

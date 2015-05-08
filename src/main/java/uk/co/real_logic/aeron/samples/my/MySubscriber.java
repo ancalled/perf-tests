@@ -76,8 +76,6 @@ public class MySubscriber {
         disruptor.handleEventsWith(handler);
         disruptor.start();
         ringBuffer = disruptor.getRingBuffer();
-
-        startAeron();
     }
 
 
