@@ -41,6 +41,11 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: uk.co.real-logic:sbe:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: uk.co.real-logic:agrona:0.3.2" level="project" />
+    <orderEntry type="library" name="Maven: uk.co.real-logic:aeron-driver:0.1" level="project" />
+    <orderEntry type="library" name="Maven: uk.co.real-logic:aeron-common:0.1" level="project" />
+    <orderEntry type="library" name="Maven: uk.co.real-logic:aeron-client:0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.disruptor:disruptor:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.HdrHistogram:HdrHistogram:2.1.5" level="project" />
     <orderEntry type="library" name="Maven: quickfixj:quickfixj-core:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: quickfixj:quickfixj-msg-fix44:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.mina:mina-core:1.1.0" level="project" />

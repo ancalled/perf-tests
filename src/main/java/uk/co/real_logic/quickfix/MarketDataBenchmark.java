@@ -19,7 +19,6 @@ import java.util.List;
 public class MarketDataBenchmark {
 
     private static DataDictionary DICTIONARY;
-
     static {
         try {
             DICTIONARY = new DataDictionary("./etc/FIX44.xml");
